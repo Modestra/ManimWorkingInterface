@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManimInterface", "ManimInterface\ManimInterface.csproj", "{3E72E302-0A45-44EE-9FE8-9AE574A0B4BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E72E302-0A45-44EE-9FE8-9AE574A0B4BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E72E302-0A45-44EE-9FE8-9AE574A0B4BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E72E302-0A45-44EE-9FE8-9AE574A0B4BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E72E302-0A45-44EE-9FE8-9AE574A0B4BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8180A45-5CD0-488D-9264-071BF5B2401A}
+	EndGlobalSection
+EndGlobal
