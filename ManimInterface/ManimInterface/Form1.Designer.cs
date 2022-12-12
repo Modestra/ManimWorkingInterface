@@ -34,8 +34,8 @@
             this.directoryLink = new System.Windows.Forms.Button();
             this.directorySearcher1 = new System.DirectoryServices.DirectorySearcher();
             this.labelLink = new System.Windows.Forms.Label();
-            this.listView1 = new System.Windows.Forms.ListView();
-            this.listView2 = new System.Windows.Forms.ListView();
+            this.pythonFiles = new System.Windows.Forms.ListView();
+            this.classList = new System.Windows.Forms.ListView();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -95,23 +95,25 @@
             this.labelLink.TabIndex = 5;
             this.labelLink.Text = "label1";
             // 
-            // listView1
+            // pythonFiles
             // 
-            this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(12, 111);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(148, 172);
-            this.listView1.TabIndex = 6;
-            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.pythonFiles.HideSelection = false;
+            this.pythonFiles.Location = new System.Drawing.Point(12, 111);
+            this.pythonFiles.Name = "pythonFiles";
+            this.pythonFiles.Size = new System.Drawing.Size(148, 172);
+            this.pythonFiles.TabIndex = 6;
+            this.pythonFiles.UseCompatibleStateImageBehavior = false;
+            this.pythonFiles.View = System.Windows.Forms.View.List;
+            this.pythonFiles.SelectedIndexChanged += new System.EventHandler(this.pythonFiles_SelectedIndexChanged);
             // 
-            // listView2
+            // classList
             // 
-            this.listView2.HideSelection = false;
-            this.listView2.Location = new System.Drawing.Point(166, 111);
-            this.listView2.Name = "listView2";
-            this.listView2.Size = new System.Drawing.Size(151, 172);
-            this.listView2.TabIndex = 7;
-            this.listView2.UseCompatibleStateImageBehavior = false;
+            this.classList.HideSelection = false;
+            this.classList.Location = new System.Drawing.Point(166, 111);
+            this.classList.Name = "classList";
+            this.classList.Size = new System.Drawing.Size(151, 172);
+            this.classList.TabIndex = 7;
+            this.classList.UseCompatibleStateImageBehavior = false;
             // 
             // label1
             // 
@@ -138,8 +140,8 @@
             this.ClientSize = new System.Drawing.Size(329, 369);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.listView2);
-            this.Controls.Add(this.listView1);
+            this.Controls.Add(this.classList);
+            this.Controls.Add(this.pythonFiles);
             this.Controls.Add(this.labelLink);
             this.Controls.Add(this.directoryLink);
             this.Controls.Add(this.qualityLabel);
@@ -160,8 +162,8 @@
         private System.Windows.Forms.Button directoryLink;
         private System.DirectoryServices.DirectorySearcher directorySearcher1;
         private System.Windows.Forms.Label labelLink;
-        private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.ListView listView2;
+        private System.Windows.Forms.ListView pythonFiles;
+        private System.Windows.Forms.ListView classList;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
     }
