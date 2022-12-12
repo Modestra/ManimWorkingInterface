@@ -1,0 +1,11 @@
+D:\ManimAPI\ManimInterface\ManimInterface\bin\Debug\ManimInterface.exe.config
+D:\ManimAPI\ManimInterface\ManimInterface\bin\Debug\ManimInterface.exe
+D:\ManimAPI\ManimInterface\ManimInterface\bin\Debug\ManimInterface.pdb
+D:\ManimAPI\ManimInterface\ManimInterface\obj\Debug\ManimInterface.csproj.AssemblyReference.cache
+D:\ManimAPI\ManimInterface\ManimInterface\obj\Debug\ManimInterface.csproj.SuggestedBindingRedirects.cache
+D:\ManimAPI\ManimInterface\ManimInterface\obj\Debug\ManimInterface.Form1.resources
+D:\ManimAPI\ManimInterface\ManimInterface\obj\Debug\ManimInterface.Properties.Resources.resources
+D:\ManimAPI\ManimInterface\ManimInterface\obj\Debug\ManimInterface.csproj.GenerateResource.cache
+D:\ManimAPI\ManimInterface\ManimInterface\obj\Debug\ManimInterface.csproj.CoreCompileInputs.cache
+D:\ManimAPI\ManimInterface\ManimInterface\obj\Debug\ManimInterface.exe
+D:\ManimAPI\ManimInterface\ManimInterface\obj\Debug\ManimInterface.pdb
